@@ -1,0 +1,69 @@
+/* Global */
+
+html {
+  font-size: 16px;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+header img {
+  height: 2rem;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #373737;
+  font-weight: 600;
+}
+
+header h1 span {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+nav {
+  margin-right: 24px
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  opacity: 0.5;
+}
+/* Banner */
+
+
+
+/* Main */
+
+
+
+/* Start Learning */
+
+
+
+/* Exhibit */
