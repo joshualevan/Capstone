@@ -4,6 +4,7 @@ html {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 /* div, header, main, section { */
   /* border: solid 1px black; */
 /* } */
@@ -26,6 +27,14 @@ h1 {
   font-size: 2rem;
   margin: 2rem 0;
 }
+=======
+.lrg-img {
+  margin: 0 1.5rem;
+  width: 60%;
+  height: auto;
+}
+
+>>>>>>> 24674c7eac787d7f12e97dae4a2bbca2735c03e6
 /* Header */
 
 header {
