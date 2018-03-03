@@ -4,6 +4,12 @@ html {
   font-size: 16px;
 }
 
+.lrg-img {
+  margin: 0 1.5rem;
+  width: 60%;
+  height: auto;
+}
+
 /* Header */
 
 header {
@@ -49,6 +55,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
+  transition: all 0.5s ease 0s;
 }
 
 nav ul li a:hover {
@@ -56,14 +63,53 @@ nav ul li a:hover {
 }
 /* Banner */
 
+.banner {
+ background-color: gray;
+ padding: 2rem 0;
+ display: flex;
+ align-items: center;
+}
 
+.start {
+  width: 23%;
+}
+
+.start h1 {
+  font-size: 4rem;
+}
+
+.start h2 {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.btn span {
+  font-size: 2rem;
+}
 
 /* Main */
 
+main {
 
+}
 
 /* Start Learning */
 
 
 
 /* Exhibit */
+
+
+
+/* Footer */
