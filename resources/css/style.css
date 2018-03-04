@@ -1,6 +1,7 @@
 /* Global */
 
 html {
+  font-family: Roboto, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -23,9 +24,24 @@ main, .exhibit, footer {
 }
 
 h1 {
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 3rem;
   margin: 2rem 0;
+  letter-spacing: 2px;
   text-align: center;
+  color: #373737;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #373737;
+}
+
+p {
+  color: gray;
+  line-height: 1.4;
 }
 
 .lrg-img {
@@ -34,6 +50,9 @@ h1 {
   height: auto;
 }
 
+.gray {
+  background-color: #dddcdc;
+}
 
 /* Header */
 
@@ -57,6 +76,7 @@ header img {
 }
 
 header h1 {
+  font-family: Amaranth, Helvetica, sans-serif;
   display: inline-block;
   font-size: 1.5rem;
   color: #373737;
@@ -90,7 +110,6 @@ nav ul li a:hover {
 .banner {
   display: flex;
   align-items: center;
-  background-color: grey;
 }
 
 .btn {
@@ -100,7 +119,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.lrg-photo h1 {
+.banner h1 {
   text-align: left;
 }
 
@@ -108,6 +127,7 @@ nav ul li a:hover {
 
 .lrg-photo h1 {
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .caption {
@@ -117,10 +137,6 @@ nav ul li a:hover {
 .main-right {
   width: 35%;
   margin-top: 1rem;
-}
-
-.gray {
-  background-color: gray;
 }
 
 .info-container {
@@ -141,14 +157,13 @@ nav ul li a:hover {
 
 .info {
   margin: 0 auto;
-  width: 11rem;
+  width: 17rem;
 }
 
 /* Start Learning */
 
 .start-learning {
   padding: 2rem 3.5rem 1rem 3.5rem;
-  background-color: grey;
 }
 
 
