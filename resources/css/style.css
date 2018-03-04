@@ -117,9 +117,15 @@ nav ul li a:hover {
   background-color: black;
   color: white;
   text-align: center;
+  width: 60%;
+  margin-top: 1rem;
 }
 
-.banner h1 {
+.banner-right {
+  width: 35%;
+}
+
+.banner-right h1 {
   text-align: left;
 }
 
