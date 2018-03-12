@@ -54,6 +54,14 @@ p {
   background-color: #dddcdc;
 }
 
+@media only screem and (max-width:480) {
+  .lrg-photo {
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
+}
+
 /* Header */
 
 header {
@@ -69,6 +77,10 @@ header {
   display: flex;
   align-items: center;
   margin-left: 1.5rem;
+}
+
+.icon {
+  display: none;
 }
 
 header img {
@@ -105,6 +117,23 @@ nav ul li a, footer ul li a {
 nav ul li a:hover {
   opacity: 0.5;
 }
+
+@media only screen and (max-width:480px) {
+  nav, .logo h1 {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .icon {
+    display:inline-block;
+  }
+}
+
 /* Banner */
 
 .banner {
@@ -114,7 +143,7 @@ nav ul li a:hover {
 
 .btn {
   padding: 0.5rem;
-  background-color: black;
+  background-color: gray;
   color: white;
   text-align: center;
   width: 60%;
@@ -127,6 +156,13 @@ nav ul li a:hover {
 
 .banner-right h1 {
   text-align: left;
+}
+
+@media only screen and (max-width:480px) {
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* Main */
@@ -151,7 +187,7 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.info-container h2, .info-container p{
+.info-container h2, .info-container p {
   margin-bottom: 0.5rem;
 }
 
@@ -164,6 +200,12 @@ nav ul li a:hover {
 .info {
   margin: 0 auto;
   width: 17rem;
+}
+
+@media only screen and (max-width:480px) {
+  #hide {
+    display: none;
+  }
 }
 
 /* Start Learning */
