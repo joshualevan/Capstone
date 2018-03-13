@@ -1,8 +1,8 @@
 /* Global */
-
 html {
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 16px;
+  background-color: rgba(245, 245, 245, 1);
 }
 
 a {
@@ -52,14 +52,6 @@ p {
 
 .gray {
   background-color: #dddcdc;
-}
-
-@media only screem and (max-width:480) {
-  .lrg-photo {
-    width: 100%;
-    padding: 0;
-    display: block;
-  }
 }
 
 /* Header */
@@ -163,6 +155,32 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .lrg-photo {
+    width: 100%;
+    padding: 0;
+  }
+
+  h1  {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+ .banner-right {
+   width: 100%;
+   padding: 0 16px 32px 16px;
+  }
+
+  .btn {
+    width: 60%;
+  }
 }
 
 /* Main */
@@ -202,9 +220,38 @@ nav ul li a:hover {
   width: 17rem;
 }
 
+.reveal {
+  display: none;
+}
+
 @media only screen and (max-width:480px) {
+  .main-right {
+    width: 100%;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .info {
+    margin: 1rem;;
+  }
+
+  .info-container img {
+    width: 100%;
+  }
+
+  #white {
+    background-color: rgba(245, 245, 245, 1);
+  }
+
   #hide {
     display: none;
+  }
+
+  .reveal {
+    display: block;
   }
 }
 
@@ -233,6 +280,24 @@ nav ul li a:hover {
 .gallery-info p {
   margin: 0.5rem 0;
 }
+
+@media only screen and (max-width:480px) {
+  .start-learning {
+    padding: 0;
+  }
+
+  .gallery-typo-photo {
+    width: 100%;
+    text-align: center;
+    background-color: #dddcdc;
+    margin: 0.25rem 1rem;
+  }
+
+  .gallery-typo-photo img, .gallery-typo-photo p {
+    display: none;
+  }
+}
+
 /* Exhibit */
 .exhibit .main-right {
   margin-top: 2rem;
@@ -240,6 +305,16 @@ nav ul li a:hover {
 
 video {
   width: 100%;
+}
+
+@media only screen and (max-width:480px) {
+  .hide {
+    display: none;
+  }
+
+  video {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* Footer */
@@ -255,4 +330,14 @@ footer p {
 footer ul li {
   display: inline-block;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width:480px) {
+  footer {
+    height: auto;
+  }
+
+  footer p {
+    margin: 1rem 0 1rem 1.5rem;
+  }
 }
